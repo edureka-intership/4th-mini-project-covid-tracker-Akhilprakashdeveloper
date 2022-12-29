@@ -84,7 +84,6 @@ function RowPost(props) {
     <h1>NAME:{setmovie.title? setmovie.title:setmovie.name}</h1>
     <h1>OVERVIEW:<br/>{setmovie.overview} </h1>
     <h1>RATING:{setmovie.vote_average} </h1>
-    <h1>HOPE:{props.inputData}</h1>
     <button style={{ width:'100px',height:'50px'}} onClick={() => setIsOpen()}><p style={{ color: 'red',fontSize:'30px'}}>Close</p></button>
 
   </div>  
